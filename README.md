@@ -35,7 +35,7 @@ This repository reproduces every number, table and figure in the paper.
 | `make_report.py` | Turns `results/*.json` into the LaTeX tables, number macros and figures of the paper |
 | `results/` | The raw results behind the paper (JSON) |
 | `data/` | UCI Heart Disease data (CC BY 4.0, see [`data/README.md`](data/README.md)) |
-| `docs/Online_Resource_1.pdf` | Supplementary material of the paper |
+| `docs/Online_Resource.pdf` | Supplementary material of the paper |
 
 ## Installation
 
@@ -57,7 +57,7 @@ Run every command from the repository root. Each script writes its results to `r
 
 | Command | Output | Used in the paper |
 |---|---|---|
-| `python3 exp_extra.py e1` | `results/e1_final.json` | Table 7; Online Resource 1, Tables S1–S3 |
+| `python3 exp_extra.py e1` | `results/e1_final.json` | Table 7; Online Resource, Tables S1–S3 |
 | `python3 exp_extra.py e3` | `results/e3_calibration.json` | Fig. 3; Table S5 |
 | `python3 exp_extra.py e4` | `results/e4_privacy.json` | Section 7.3; Fig. S1, Table S4 |
 | `python3 exp_extra.py e5` | `results/e5_scaling.json` | Section 7.6; Table S12 |
