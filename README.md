@@ -12,7 +12,7 @@ the round is finalised when a Byzantine quorum of hospitals agrees on the model 
 
 This repository reproduces every number, table and figure in the paper.
 
-* **Online Resource** (supplementary material of the paper): [`Online_Resource.pdf`]((https://github.com/ashishdwi/CardioTrustFL/blob/main/Online%20Resource.pdf))
+* **Online Resource** (supplementary material of the paper): [[`Online_Resource.pdf`]((https://github.com/ashishdwi/CardioTrustFL/blob/main/Online%20Resource.pdf))](https://github.com/ashishdwi/CardioTrustFL/blob/main/Online%20Resource.pdf)
 
 ---
 
