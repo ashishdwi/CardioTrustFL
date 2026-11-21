@@ -1,0 +1,17 @@
+{
+ "rpcs": [
+  "http://127.0.0.1:8545"
+ ],
+ "contract": "0xCcc865Bda7047502018dAE9267D29C6aF6912236",
+ "artifact": "./contracts/CardioTrustFL.json",
+ "store": "http://127.0.0.1:8700",
+ "seed": 0,
+ "rounds": 10,
+ "deposit": 10000000000000000,
+ "commit_blocks": 2,
+ "reveal_blocks": 2,
+ "vote_blocks": 3,
+ "block_time": 1,
+ "out": "./results/deploy/bt1",
+ "deploy_gas": 1747547
+}

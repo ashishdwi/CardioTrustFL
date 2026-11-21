@@ -1,0 +1,21 @@
+{
+ "exit_codes": [
+  0,
+  0,
+  0,
+  0
+ ],
+ "wall_s": 381.0416965484619,
+ "finalized": 30,
+ "failed": 0,
+ "started": 30,
+ "blocks": 195,
+ "reputation": {
+  "0xa8F1863059346Ba78F6A2a43ec6b5f7488704691": 100,
+  "0x1b395007a64e9fEd8dF7C395BA7250a77fD4f230": 90,
+  "0x830c00aaD7CD7EcD4f4b13521423B30fC23E201c": 100,
+  "0x1f8122a6EaC2Aa187C7C995B28b68aE2fffCFb81": 100
+ },
+ "test_auc": 0.8863743517208864,
+ "test_bal_acc": 0.7848302687411599
+}

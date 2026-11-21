@@ -1,0 +1,11 @@
+# Tested with the versions listed in README.md (Python 3.13, CPU only).
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+torch>=2.4
+opacus>=1.5            # used only for the Renyi-DP accountant
+cryptography>=43
+web3[tester]>=7.0      # web3.py + eth-tester + py-evm (in-process EVM)
+eth-account>=0.13

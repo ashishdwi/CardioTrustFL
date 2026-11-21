@@ -1,0 +1,12 @@
+{
+  "name": "cardiotrustfl",
+  "private": true,
+  "description": "Solidity compiler and local EVM node used by the CardioTrustFL experiments",
+  "scripts": {
+    "compile": "node contracts/compile.js"
+  },
+  "dependencies": {
+    "solc": "0.8.26",
+    "@foundry-rs/anvil": "^1.7.1"
+  }
+}

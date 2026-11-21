@@ -1,0 +1,122 @@
+{
+ "adversarial_checks": {
+  "quorum_is_N_minus_floor_N_minus_1_over_3": true,
+  "early_reveal_rejected": true,
+  "copied_opening_rejected": true,
+  "equivocating_opening_rejected": true,
+  "late_reveal_rejected": true,
+  "non_revealer_cannot_vote": true,
+  "two_votes_below_quorum_do_not_finalise": true,
+  "double_vote_rejected": true,
+  "expired_round_closes_as_failed": true,
+  "withholder_slashed_and_penalised": true,
+  "failed_round_no_reward_for_revealers": true,
+  "single_byzantine_vote_cannot_finalise": true,
+  "not_final_with_q_minus_1_votes": true,
+  "finalised_at_quorum_on_honest_decision": true,
+  "excluded_update_penalised": true,
+  "kept_updates_rewarded_capped": true,
+  "replay_previous_round_opening_rejected": true
+ },
+ "gas_scaling": {
+  "4": {
+   "registerHospital": 90824.0,
+   "startRound": 103151.0,
+   "commit": 58478.0,
+   "reveal": 143673.25,
+   "vote": 103234.0,
+   "settleAll": 223376.0,
+   "per_round_total": 1444834.0,
+   "votes_needed": 3.0,
+   "deploy": 1747547,
+   "local_wallclock_per_round_s": 0.5152726883333306
+  },
+  "10": {
+   "registerHospital": 85695.8,
+   "startRound": 103151.0,
+   "commit": 58477.8,
+   "reveal": 138079.5,
+   "vote": 79550.57142857143,
+   "settleAll": 514886.0,
+   "per_round_total": 3140464.0,
+   "votes_needed": 7.0,
+   "deploy": 1747547,
+   "local_wallclock_per_round_s": 1.0380645453333273
+  },
+  "20": {
+   "registerHospital": 83985.2,
+   "startRound": 103151.0,
+   "commit": 58478.2,
+   "reveal": 136220.65,
+   "vote": 70671.28571428571,
+   "settleAll": 1000736.0,
+   "per_round_total": 5987262.0,
+   "votes_needed": 14.0,
+   "deploy": 1747547,
+   "local_wallclock_per_round_s": 2.1572331946666736
+  },
+  "50": {
+   "registerHospital": 82959.8,
+   "startRound": 103151.0,
+   "commit": 58478.04,
+   "reveal": 135103.9,
+   "vote": 65495.470588235294,
+   "settleAll": 2458286.0,
+   "per_round_total": 14467380.0,
+   "votes_needed": 34.0,
+   "deploy": 1747547,
+   "local_wallclock_per_round_s": 5.994477135666671
+  }
+ },
+ "end_to_end": {
+  "deploy_gas": 1747547,
+  "gas": {
+   "registerHospital": {
+    "mean": 90899.0,
+    "n": 4
+   },
+   "startRound": {
+    "mean": 104665.7,
+    "n": 30
+   },
+   "commit": {
+    "mean": 58477.2,
+    "n": 120
+   },
+   "reveal": {
+    "mean": 143669.25,
+    "n": 120
+   },
+   "vote": {
+    "mean": 101526.8,
+    "n": 90
+   },
+   "settleAll": {
+    "mean": 223518.46666666667,
+    "n": 30
+   }
+  },
+  "time": {
+   "train": 15.58159000000012,
+   "chain": 20.48544875100015,
+   "aggregate": 0.09465084200013507,
+   "verify": 20.179959655000005,
+   "encrypt": 0.03616467199992712,
+   "decrypt": 3.8364805729999603
+  },
+  "rounds": 30,
+  "final_hash_equals_simulation": true,
+  "store_holds_only_ciphertext_before_reveal": true,
+  "blob_bytes": 29704,
+  "ciphertext_bytes": 29720,
+  "onchain_hashes_verified": true,
+  "reputations": [
+   100,
+   95,
+   100,
+   100
+  ],
+  "latest_global": "3d6d53dce059d7bd8f16848c7da6f98b3e11244f91d57a5e1ad71be54fd93505",
+  "sim_auc": 0.8927392739273927
+ }
+}

@@ -1,0 +1,493 @@
+{
+ "index": 1,
+ "address": "0x1b395007a64e9fEd8dF7C395BA7250a77fD4f230",
+ "rounds": [
+  {
+   "round": 1,
+   "start_block": 7,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 12,
+   "eps": 1.6286618753451994,
+   "n_reveal": 4,
+   "kept": 3,
+   "threshold": 0.5399999999999999,
+   "times": {
+    "seen": 0.0,
+    "trained": 1.1271076202392578,
+    "uploaded": 1.1758487224578857,
+    "committed": 5.025042533874512,
+    "revealed": 15.007495164871216,
+    "fetched": 20.103586435317993,
+    "aggregated": 20.10500192642212,
+    "counted": 20.170177221298218,
+    "voted": 25.0171902179718,
+    "final": 25.02361249923706
+   }
+  },
+  {
+   "round": 2,
+   "start_block": 13,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 18,
+   "eps": 2.0605713139542225,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.57,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.09853720664978027,
+    "uploaded": 0.10032176971435547,
+    "committed": 4.906860589981079,
+    "revealed": 14.892195224761963,
+    "fetched": 19.93108057975769,
+    "aggregated": 19.93220019340515,
+    "counted": 19.988035440444946,
+    "voted": 24.907256841659546,
+    "final": 24.912748336791992
+   }
+  },
+  {
+   "round": 3,
+   "start_block": 19,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 24,
+   "eps": 2.40972831620496,
+   "n_reveal": 4,
+   "kept": 3,
+   "threshold": 0.5499999999999999,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.11650419235229492,
+    "uploaded": 0.12200355529785156,
+    "committed": 4.988938331604004,
+    "revealed": 14.999836921691895,
+    "fetched": 20.07456111907959,
+    "aggregated": 20.075278520584106,
+    "counted": 20.08170747756958,
+    "voted": 25.01932382583618,
+    "final": 25.028627634048462
+   }
+  },
+  {
+   "round": 4,
+   "start_block": 25,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 30,
+   "eps": 2.7138019691709028,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.59,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.1061093807220459,
+    "uploaded": 0.11500763893127441,
+    "committed": 4.984572649002075,
+    "revealed": 15.020663976669312,
+    "fetched": 20.018415451049805,
+    "aggregated": 20.01938796043396,
+    "counted": 20.075329303741455,
+    "voted": 25.02558946609497,
+    "final": 25.034316539764404
+   }
+  },
+  {
+   "round": 5,
+   "start_block": 31,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 36,
+   "eps": 2.9879057243834706,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.61,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.11267399787902832,
+    "uploaded": 0.1136786937713623,
+    "committed": 4.9675493240356445,
+    "revealed": 14.957827806472778,
+    "fetched": 20.026795625686646,
+    "aggregated": 20.02848482131958,
+    "counted": 20.086480140686035,
+    "voted": 24.933144569396973,
+    "final": 24.94221544265747
+   }
+  },
+  {
+   "round": 6,
+   "start_block": 37,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 42,
+   "eps": 3.2404935755939483,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.6599999999999999,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.08971619606018066,
+    "uploaded": 0.09101700782775879,
+    "committed": 4.925880670547485,
+    "revealed": 14.888070106506348,
+    "fetched": 19.966137647628784,
+    "aggregated": 19.966809272766113,
+    "counted": 19.973625421524048,
+    "voted": 24.878172159194946,
+    "final": 24.883505821228027
+   }
+  },
+  {
+   "round": 7,
+   "start_block": 43,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 48,
+   "eps": 3.4760349655423606,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.71,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.1053457260131836,
+    "uploaded": 0.11314654350280762,
+    "committed": 4.976309299468994,
+    "revealed": 14.97411561012268,
+    "fetched": 19.997945308685303,
+    "aggregated": 19.998870372772217,
+    "counted": 20.11127734184265,
+    "voted": 20.122167348861694,
+    "final": 25.009259939193726
+   }
+  },
+  {
+   "round": 8,
+   "start_block": 49,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 54,
+   "eps": 3.6984175459672888,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.74,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.11041903495788574,
+    "uploaded": 0.1133430004119873,
+    "committed": 4.97554087638855,
+    "revealed": 14.930554389953613,
+    "fetched": 20.053362369537354,
+    "aggregated": 20.0543954372406,
+    "counted": 20.061309099197388,
+    "voted": 24.936782836914062,
+    "final": 24.94724178314209
+   }
+  },
+  {
+   "round": 9,
+   "start_block": 55,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 60,
+   "eps": 3.9099929248683356,
+   "n_reveal": 4,
+   "kept": 3,
+   "threshold": 0.7599999999999999,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.32858800888061523,
+    "uploaded": 0.3300819396972656,
+    "committed": 5.019439697265625,
+    "revealed": 15.012038707733154,
+    "fetched": 20.07048225402832,
+    "aggregated": 20.071808099746704,
+    "counted": 20.128472328186035,
+    "voted": 24.994194984436035,
+    "final": 25.00232768058777
+   }
+  },
+  {
+   "round": 10,
+   "start_block": 61,
+   "committed_ok": true,
+   "phase": 4,
+   "agree": true,
+   "final_block": 66,
+   "eps": 4.111635953852844,
+   "n_reveal": 4,
+   "kept": 4,
+   "threshold": 0.83,
+   "times": {
+    "seen": 0.0,
+    "trained": 0.09588742256164551,
+    "uploaded": 0.09729170799255371,
+    "committed": 4.909133672714233,
+    "revealed": 14.898857593536377,
+    "fetched": 19.96860122680664,
+    "aggregated": 19.96950936317444,
+    "counted": 20.03105092048645,
+    "voted": 24.88641095161438,
+    "final": 24.891476154327393
+   }
+  }
+ ],
+ "txs": [
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 3.832461357116699,
+   "block": 8
+  },
+  {
+   "name": "reveal",
+   "gas": 134363,
+   "ok": true,
+   "latency": 4.991453170776367,
+   "block": 10
+  },
+  {
+   "name": "vote",
+   "gas": 26998,
+   "ok": false,
+   "latency": 4.824852228164673,
+   "block": 12
+  },
+  {
+   "name": "startRound",
+   "gas": 104834,
+   "ok": true,
+   "latency": 4.98819375038147,
+   "block": 13
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.799695014953613,
+   "block": 14
+  },
+  {
+   "name": "reveal",
+   "gas": 134363,
+   "ok": true,
+   "latency": 4.954511880874634,
+   "block": 16
+  },
+  {
+   "name": "vote",
+   "gas": 61764,
+   "ok": true,
+   "latency": 4.909708023071289,
+   "block": 18
+  },
+  {
+   "name": "settleAll",
+   "gas": 223359,
+   "ok": true,
+   "latency": 4.964077949523926,
+   "block": 19
+  },
+  {
+   "name": "commit",
+   "gas": 58467,
+   "ok": true,
+   "latency": 4.85671591758728,
+   "block": 20
+  },
+  {
+   "name": "reveal",
+   "gas": 134351,
+   "ok": true,
+   "latency": 5.004466772079468,
+   "block": 22
+  },
+  {
+   "name": "vote",
+   "gas": 61764,
+   "ok": true,
+   "latency": 4.9277663230896,
+   "block": 24
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.859976768493652,
+   "block": 26
+  },
+  {
+   "name": "reveal",
+   "gas": 134363,
+   "ok": true,
+   "latency": 5.013882637023926,
+   "block": 28
+  },
+  {
+   "name": "vote",
+   "gas": 61764,
+   "ok": true,
+   "latency": 4.936276912689209,
+   "block": 30
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.846466302871704,
+   "block": 32
+  },
+  {
+   "name": "reveal",
+   "gas": 134363,
+   "ok": true,
+   "latency": 5.004828929901123,
+   "block": 34
+  },
+  {
+   "name": "vote",
+   "gas": 26998,
+   "ok": false,
+   "latency": 4.836627960205078,
+   "block": 36
+  },
+  {
+   "name": "startRound",
+   "gas": 104834,
+   "ok": true,
+   "latency": 5.012212038040161,
+   "block": 37
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.82933235168457,
+   "block": 38
+  },
+  {
+   "name": "reveal",
+   "gas": 171608,
+   "ok": true,
+   "latency": 4.967633485794067,
+   "block": 40
+  },
+  {
+   "name": "vote",
+   "gas": 81879,
+   "ok": true,
+   "latency": 4.895654201507568,
+   "block": 42
+  },
+  {
+   "name": "settleAll",
+   "gas": 223376,
+   "ok": true,
+   "latency": 5.014538288116455,
+   "block": 43
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.854578733444214,
+   "block": 44
+  },
+  {
+   "name": "reveal",
+   "gas": 134363,
+   "ok": true,
+   "latency": 4.982780933380127,
+   "block": 46
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.856958389282227,
+   "block": 50
+  },
+  {
+   "name": "reveal",
+   "gas": 171608,
+   "ok": true,
+   "latency": 4.962352514266968,
+   "block": 52
+  },
+  {
+   "name": "vote",
+   "gas": 81879,
+   "ok": true,
+   "latency": 4.862085819244385,
+   "block": 54
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.682952404022217,
+   "block": 56
+  },
+  {
+   "name": "reveal",
+   "gas": 134363,
+   "ok": true,
+   "latency": 5.017673492431641,
+   "block": 58
+  },
+  {
+   "name": "vote",
+   "gas": 26998,
+   "ok": false,
+   "latency": 4.853355169296265,
+   "block": 60
+  },
+  {
+   "name": "startRound",
+   "gas": 104834,
+   "ok": true,
+   "latency": 4.990875005722046,
+   "block": 61
+  },
+  {
+   "name": "commit",
+   "gas": 58479,
+   "ok": true,
+   "latency": 4.806220054626465,
+   "block": 62
+  },
+  {
+   "name": "reveal",
+   "gas": 171608,
+   "ok": true,
+   "latency": 5.016806364059448,
+   "block": 64
+  },
+  {
+   "name": "vote",
+   "gas": 160359,
+   "ok": true,
+   "latency": 4.842141628265381,
+   "block": 66
+  },
+  {
+   "name": "settleAll",
+   "gas": 223359,
+   "ok": true,
+   "latency": 5.00407338142395,
+   "block": 67
+  }
+ ]
+}
