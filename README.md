@@ -2,7 +2,7 @@
 
 Code, smart contract, results and supplementary material for the paper
 
-> **CardioTrustFL: A Decentralised Byzantine-Tolerant Aggregation Protocol for Verifiable,
+> **A Decentralised Byzantine-Tolerant Aggregation Protocol for Verifiable,
 > Differentially Private Federated Learning across Hospitals**
 
 CardioTrustFL removes the trusted aggregation server from federated learning. On a smart
