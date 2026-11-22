@@ -68,9 +68,6 @@ Run each command from the repository root; results are written to `results/`.
 | `python3 exp_offchain.py` | Table 9 |
 | `python3 make_report.py` | Writes all tables and figures to `paper/` |
 
-
-
-
 ## Licence
 
 Code: MIT (see [`LICENSE`](LICENSE)). Data: CC BY 4.0, from the UCI Machine Learning Repository
