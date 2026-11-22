@@ -40,7 +40,7 @@ This repository reproduces every number, table and figure in the paper.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/CardioTrustFL.git
+git clone https://github.com/ashishdwi/CardioTrustFL.git
 cd CardioTrustFL
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -50,6 +50,23 @@ npm install                 # solc 0.8.26 and the anvil EVM node (only for compi
 Tested on Linux with a 2-core CPU and no GPU, with Python 3.13, PyTorch 2.14 (CPU),
 Opacus 1.6.0 (accountant only), scikit-learn 1.9.1, NumPy 2.5.3, SciPy 1.18.1, web3.py 8.0.0,
 eth-tester 0.14.0b1, py-evm 0.12.1b1, cryptography 50.0.1, solc-js 0.8.26 and Anvil 1.7.1.
+
+## Reproducing the results
+
+Run each command from the repository root; results are written to `results/`.
+
+| Command | Paper |
+|---|---|
+| `python3 exp_extra.py e1` | Table 7; Online Resource 1, Tables S1–S3 |
+| `python3 exp_extra.py e3` | Fig. 3; Table S5 |
+| `python3 exp_extra.py e4` | Section 7.3; Fig. S1, Table S4 |
+| `python3 exp_extra.py e5` | Section 7.6; Table S12 |
+| `python3 exp_attack.py` | Table 8, Fig. 4; Table S6 (about 1.5 h on 2 cores) |
+| `python3 exp_ablation.py` | Section 7.5; Table S7 |
+| `python3 exp_chain.py` | Table 5, Section 7.1; Table S11 |
+| `bash deploy/run_all.sh`, then `python3 deploy/report_deploy.py` | Table 6, Fig. 2; Table S8 |
+| `python3 exp_offchain.py` | Table 9 |
+| `python3 make_report.py` | Writes all tables and figures to `paper/` |
 
 
 
